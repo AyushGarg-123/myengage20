@@ -7,6 +7,6 @@ Requirements to run the website are listed below:-
  
 3) python3 log.py
  
-4) <New terminal>
+4)  <New terminal>
 
 5) python -m http.server
