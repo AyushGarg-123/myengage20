@@ -1,0 +1,104 @@
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: inherit;
+}
+body{
+background-color: #FFE3A9;
+text-align: center;
+}
+.heading{
+  color: #0AA1DD;
+  font-family:cursive;
+}
+
+
+
+
+
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.35s ease-in;
+}
+
+.modal.is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+#open_camera{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+#close_camera{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#Snapshot{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+ text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-right: 40px;
+  margin-bottom: 15px;
+}
+#submit{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+ text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+#open_camera:hover {background-color: #3e8e41}
+#close_camera:hover {background-color: #3e8e41}
+#Snapshot:hover {background-color: #3e8e41}
+#submit:hover {background-color: #3e8e41}
+
+#camera{
+  align-items: center;
+  padding-left: 30%;
+}
+/* #camera width: 550px;
+  height: 550px;
+  border: 1px solid black; */
+  .close-modal{
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 2px 10px;
+   text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 8px;
+    margin-left: 23%;
+  }

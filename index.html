@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+  <h1 class="heading">Mark Attendance</h1>
+  
+    <div>
+      <button type="button" class="open-modal heading" data-open="modal1" id="click">
+        <img src="assets/img1.jpg" alt="image" class="heading" height="250px">
+
+      </button>
+
+
+      <div class="modal" id="modal1">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            <button class="close-modal" aria-label="close modal" data-close><b>✕</b></button>
+          </header>
+          <section class="modal-content">
+            <button id="open_camera">Open Camera</button>
+            <button id="close_camera">Close Camera</button><br>
+            <button id="Snapshot"onclick="take_snapshot()">Take Snapshot</button>
+            <!-- <label for="rollno">Roll No</label> -->
+            <button id="submit">Submit</button>
+            <!-- <input type="text" id="rollno" placeholder="Enter Your Roll No."><br> -->
+            <div id="camera"></div>
+            <div id="results"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+  <script src="face-api.min.js"></script>
+  <script src="index.js"></script>
+
+
+</body>
+
+
+
+</html>
