@@ -1,4 +1,4 @@
-Requirements to run the website are listed below:-
+Requirements/actions to run the website are listed below:-
 
 
 1) "pip install Flask"
