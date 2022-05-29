@@ -5,7 +5,7 @@ Requirements to run the website are listed below:-
 
 2) "cd logger"
  
-3) "<python3 log.py>"
+3) "python3 log.py"
  
 4) "New terminal"
 
